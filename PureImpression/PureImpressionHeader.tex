@@ -1,7 +1,7 @@
 \documentclass[twoside]{article}
 \usepackage{geometry}
 \usepackage[table]{xcolor}
-
+\usepackage{scrextend}
 
 % PureImpressions a style by Thorian for DoxyGen PDF
 % URL: https://github.com/Thorian/Doxygen-PDF-Stylesheets
@@ -9,6 +9,14 @@
 % Define your CI:
 \definecolor{colora}{rgb}{0.122, 0.435, 0.698}
 \definecolor{colorb}{rgb}{1, 1, 1}
+\newcommand{\companyname}{Harbour Island Ecologics Inc.}
+\newcommand{\authorname}{Martin Theobald}
+\newcommand{\contactdetails}{
+Harbour Island Ecologics Inc.\\
+http://www.harbour-island.ca\\
+info@harbour-island.ca\\
+}
+
 
 
 \newcommand{\chaptermark}[1]{{#1}}
@@ -145,6 +153,10 @@
 
 {\large $projectbrief}\\
 {\small $datetime }\\
+\vspace*{10cm}
+\begin{addmargin}[35em]{0em}
+\contactdetails
+\end{addmargin}
 \begin{center}%
 
 \end{center}
