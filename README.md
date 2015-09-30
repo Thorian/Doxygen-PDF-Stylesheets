@@ -10,4 +10,8 @@ I got from the generated PDF documentation.
 This repository will be a collection of stylesheets i use for tuning
 the LaTex output to something I'm proud to present.
 
+## Usage ##
+Download the stylsheet you like or download the whole package. Then name the stylesheet you want to use
+using the LINUX_HEADER option in your DoxyGen File.
 
+ 
