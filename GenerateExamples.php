@@ -38,7 +38,7 @@ while ($file = fgets($fp)) {
 	
 	rename ("refman.pdf","../../../Doxygen-PDF-Stylesheets/".substr($file,1,-4)."pdf");
 	rename ("refman-0.jpg","../../../Doxygen-PDF-Stylesheets/".substr($file,1,-4)."jpg");
-	
+	chdir ("../..");
 }
 pclose($fp);
 
