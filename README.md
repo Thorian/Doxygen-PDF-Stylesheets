@@ -14,4 +14,7 @@ the LaTex output to something I'm proud to present.
 Download the stylsheet you like or download the whole package. Then name the stylesheet you want to use
 using the LINUX_HEADER option in your DoxyGen File.
 
- 
+## Colors! Why Blue? I want a different one! ##
+Please feel free to adjust the template color yourself its in the first few lines 
+usually called colora colorb colorc and so on. You might aswell replace the company name
+there which might come in handy as long as you don't work at H.I.E.
